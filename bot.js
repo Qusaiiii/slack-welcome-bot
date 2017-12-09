@@ -52,17 +52,7 @@ SlackWelcomeBot.prototype.run = function () {
 
 	this.bot.on('slack.login', function() {
 
-		console.log('************************** Slack Welcome Bot v' + package.version + ' **************************')
-		console.log('')
-		console.log(' Made with ♥ by SlugBay engineers')
-		console.log(" Slack    -> https://slugbay-chat.slack.com")
-		console.log(" Gitter   -> https://gitter.im/SlugBay/Lobby")
-		console.log(" Twitter  -> https://www.twitter.com/slugbay")
-		console.log(" Github   -> https://www.github.com/slugbay")
-		console.log(" Google+  -> https://plus.google.com/communities/116637852608020457513")
-		console.log(" Facebook -> https://www.facebook.com/slugbay")
-		console.log('')
-		console.log('******************************************************************************')
+		console.log('************************** Peery Bot v' + package.version + ' **************************')
 		console.log('[INFO]: bot started')
 
 		this.bot.on('ws.error', function (event) {
