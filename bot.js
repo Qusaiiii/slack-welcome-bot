@@ -111,5 +111,3 @@ SlackWelcomeBot.prototype.run = function () {
 
 var bot = new SlackWelcomeBot( process.env )
 bot.run()
-
-client.login = (process.env.BOT_TOKEN)
